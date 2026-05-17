@@ -20,6 +20,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="assets/images/chapel.png">
 </head>
 <body>
 
@@ -50,7 +51,7 @@
   <!-- Hero Section -->
   <section class="hero" id="home">
     <div class="hero-overlay"></div>
-    <img src="assets/images/chapel.png" alt="Chapel Interior" class="hero-image" />
+    <img src="assets/images/chapel.png" alt="Chapel Interior" class="hero-image" fetchpriority="high" />
     <div class="hero-content">
       <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
         <img src="assets/images/logo.png" alt="Cornerstone Logo" class="hero-logo" data-aos="zoom-in" data-aos-delay="200" />
@@ -84,7 +85,7 @@
       <div class="pastor-welcome-grid">
         <div class="pastor-image-container" data-aos="fade-right">
           <div class="pastor-image-frame">
-            <img src="assets/images/BroDave.jpg" alt="Pastor Dave Turner" class="pastor-image" />
+            <img src="assets/images/BroDave.jpg" alt="Pastor Dave Turner" class="pastor-image" loading="lazy" />
           </div>
         </div>
         <div class="pastor-welcome-text" data-aos="fade-left">
@@ -233,7 +234,7 @@
           </div>
           <h3>YouTube Channel</h3>
           <p>Watch past sermons and stay connected with our church community</p>
-          <a href="https://www.youtube.com/@yourchannel" target="_blank" rel="noopener" class="btn btn-primary">
+          <a href="https://youtube.com/@cornerstonebaptist5916" target="_blank" rel="noopener" class="btn btn-primary">
             <i class="fab fa-youtube"></i> Visit Channel
           </a>
         </div>
@@ -258,7 +259,7 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-overlay"></div>
-    <img src="assets/images/parking.png" alt="Church Parking" class="footer-bg" />
+    <img src="assets/images/parking.png" alt="Church Parking" class="footer-bg" loading="lazy" />
     <div class="footer-content">
       <div class="container">
         <div class="footer-grid" data-aos="fade-up">
@@ -300,7 +301,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 Cornerstone Baptist Church | Serving Christ in Word and Fellowship</p>
+          <p>&copy; 2026 Cornerstone Baptist Church | Serving Christ in Word and Fellowship</p>
         </div>
       </div>
     </div>
